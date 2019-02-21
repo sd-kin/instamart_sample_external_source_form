@@ -7,148 +7,50 @@
 </head>
 
 <body>
-  <h1> INSTAMART STAGING </h1>
-
-  <div>
-    <h3>add by SKU </h3>
-    <form action="https://staging.instamart.ru/external_sources/metro/orders" method="post">
-      <div class="form-group">
-        <label>Город<label>
-        <input type="text" name="address[city]">
-      <div>
-
-      <div class="form-group">
-        <label>Улица<label>
-        <input type="text" name="address[street]">
-      <div>
-
-      <div class="form-group">
-        <label>Номер дома<label>
-        <input type="number" name="address[building]">
-      <div>
-
-      <div class="form-group">
-        <label>Широта<label>
-        <input type="number" name="address[lat]" step="0.0000001">
-      <div>
-
-      <div class="form-group">
-        <label> Долгота<label>
-        <input type="number" name="address[lon]" step="0.0000001">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>Питьевой йогурт Активиа чернослив 2% 290 г</p>
-        <input type="number" name="skus[212304]" min="1" max="100">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>"Масло подсолнечное Распак 10 г 20 шт"</p>
-        <input type="number" name="skus[587213]" min="1" max="100">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>Бульон Gallina Blanca Грибной</p>
-        <input type="number" name="skus[477234]" min="1" max="100">
-      <div>
-
-      <input type="submit" class="btn btn-primary" value="Submit">
-    </form>
-  </div>
-
-  <div>
-    <h3>add by EAN </h3>
-    <form action="https://staging.instamart.ru/external_sources/metro/orders" method="post">
-      <div class="form-group">
-        <label>Город<label>
-        <input type="text" name="address[city]">
-      <div>
-
-      <div class="form-group">
-        <label>Улица<label>
-        <input type="text" name="address[street]">
-      <div>
-
-      <div class="form-group">
-        <label>Номер дома<label>
-        <input type="number" name="address[building]">
-      <div>
-
-      <div class="form-group">
-        <label>Широта<label>
-        <input type="number" name="address[lat]" step="0.0000001">
-      <div>
-
-      <div class="form-group">
-        <label> Долгота<label>
-        <input type="number" name="address[lon]" step="0.0000001">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>Питьевой йогурт Активиа чернослив 2% 290 г</p>
-        <input type="number" name="eans[4600605013304]" min="1" max="100">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>Папка-уголок Aro А4 120 мкм</p>
-        <input type="number" name="eans[4607100121190]" min="1" max="100">
-      <div>
-
-      <div class="form-group">
-        <p style='display:inline-block;'>Бульон Gallina Blanca Грибной</p>
-        <input type="number" name="eans[8410300104599]" min="1" max="100">
-      <div>
-
-      <input type="submit" class="btn btn-primary" value="Submit">
-    </form>
-  </div>
-
-  <h1> METRO DELIVERY </h1>
-
   <div>
     <h3>add by SKU </h3>
     <form action="http://delivery.metro-cc.ru/external_sources/metro/orders" method="post">
       <div class="form-group">
-        <label>Город<label>
-        <input type="text" name="address[city]">
-      <div>
+        <label>Город</label>
+        <input type="text" name="address[city]" />
+      </div>
 
       <div class="form-group">
-        <label>Улица<label>
-        <input type="text" name="address[street]">
-      <div>
+        <label>Улица</label>
+        <input type="text" name="address[street]" />
+      </div>
 
       <div class="form-group">
-        <label>Номер дома<label>
-        <input type="number" name="address[building]">
-      <div>
+        <label>Номер дома</label>
+        <input type="number" name="address[building]" />
+      </div>
 
       <div class="form-group">
-        <label>Широта<label>
-        <input type="number" name="address[lat]" step="0.0000001">
-      <div>
+        <label>Широта</label>
+        <input type="number" name="address[lat]" step="0.0000001" />
+      </div>
 
       <div class="form-group">
-        <label> Долгота<label>
-        <input type="number" name="address[lon]" step="0.0000001">
-      <div>
+        <label> Долгота</label>
+        <input type="number" name="address[lon]" step="0.0000001" />
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>Питьевой йогурт Активиа чернослив 2% 290 г</p>
-        <input type="number" name="skus[212304]" min="1" max="100">
-      <div>
+        <input type="number" name="skus[212304]" min="1" max="100" />
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>"Масло подсолнечное Распак 10 г 20 шт"</p>
         <input type="number" name="skus[587213]" min="1" max="100">
-      <div>
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>Бульон Gallina Blanca Грибной</p>
-        <input type="number" name="skus[477234]" min="1" max="100">
-      <div>
+        <input type="number" name="skus[477234]" min="1" max="100" />
+      </div>
 
-      <input type="submit" class="btn btn-primary" value="Submit">
+      <input type="submit" class="btn btn-primary" value="Submit" />
     </form>
   </div>
 
@@ -156,44 +58,44 @@
     <h3>add by EAN </h3>
     <form action="http://delivery.metro-cc.ru/external_sources/metro/orders" method="post">
       <div class="form-group">
-        <label>Город<label>
-        <input type="text" name="address[city]">
-      <div>
+        <label>Город<//label>
+        <input type="text" name="address[city]" />
+      </div>
 
       <div class="form-group">
-        <label>Улица<label>
-        <input type="text" name="address[street]">
-      <div>
+        <label>Улица</label>
+        <input type="text" name="address[street]" />
+      </div>
 
       <div class="form-group">
-        <label>Номер дома<label>
-        <input type="number" name="address[building]">
-      <div>
+        <label>Номер дома</label>
+        <input type="number" name="address[building]" />
+      </div>
 
       <div class="form-group">
-        <label>Широта<label>
-        <input type="number" name="address[lat]" step="0.0000001">
-      <div>
+        <label>Широта</label>
+        <input type="number" name="address[lat]" step="0.0000001" />
+      </div>
 
       <div class="form-group">
-        <label> Долгота<label>
-        <input type="number" name="address[lon]" step="0.0000001">
-      <div>
+        <label> Долгота</label>
+        <input type="number" name="address[lon]" step="0.0000001" />
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>Питьевой йогурт Активиа чернослив 2% 290 г</p>
-        <input type="number" name="eans[4600605013304]" min="1" max="100">
-      <div>
+        <input type="number" name="eans[4600605013304]" min="1" max="100" />
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>Папка-уголок Aro А4 120 мкм</p>
-        <input type="number" name="eans[4607100121190]" min="1" max="100">
-      <div>
+        <input type="number" name="eans[4607100121190]" min="1" max="100" />
+      </div>
 
       <div class="form-group">
         <p style='display:inline-block;'>Бульон Gallina Blanca Грибной</p>
-        <input type="number" name="eans[8410300104599]" min="1" max="100">
-      <div>
+        <input type="number" name="eans[8410300104599]" min="1" max="100" />
+      </div>
 
       <input type="submit" class="btn btn-primary" value="Submit">
     </form>
